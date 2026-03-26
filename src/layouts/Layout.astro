@@ -162,12 +162,30 @@ if (siteConfig.font) {
 	<head>
 		<meta charset="UTF-8" />
 		<!-- Umami -->
-        <script defer src="https://cloud.umami.is/script.js" data-website-id="27a68670-db09-4178-b3c7-8e6fa5d59126"></script>
-		
+		<script defer src="https://cloud.umami.is/script.js"
+		data-website-id="27a68670-db09-4178-b3c7-8e6fa5d59126"></script>
+
 		<!-- 第三方分析脚本 -->
 		<AnalyticsScripts
 			thirdPartyAnalytics={siteConfig.thirdPartyAnalytics}
 		/>
+		<!-- SDK3/4 必需（moc3 模型需要这个） -->
+		<script
+			src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"
+		></script>
+
+		<!-- SDK2 必需（moc 模型需要这个） -->
+		<script
+			src="https://cdn.jsdelivr.net/gh/dylanNew/live2d/webgl/Live2D/lib/live2d.min.js"
+		></script>
+
+		<!-- 渲染引擎（两者共用） -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/pixi.js@5.3.6/dist/pixi.min.js"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/pixi-live2d-display/dist/index.min.js"
+		></script>
 
 		<!-- SEO Meta Tags, Open Graph, Twitter Card, Favicons, Theme Init -->
 		<HeadTags

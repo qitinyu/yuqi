@@ -670,11 +670,11 @@ export const sakuraConfig: SakuraConfig = {
 
 // Pio 看板娘配置
 export const pioConfig: import("./types/config").PioConfig = {
-	enable: false, // 启用看板娘
-	models: ["/pio/models/pio/pio.model.json"], // 默认模型路径
+	enable: true, // 启用看板娘
+	models: ["/pio/models/cmtt/cmtt.model3.json"], // 默认模型路径
 	position: "left", // 模型位置
 	width: 280, // 默认宽度
-	height: 300, // 默认高度
+	height: 400, // 默认高度
 	mode: "draggable", // 默认为可拖拽模式
 	hiddenOnMobile: false, // 默认在移动设备上隐藏
 	dialog: {

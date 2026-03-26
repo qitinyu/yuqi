@@ -124,6 +124,22 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://www.qimiaoneko.com/",
 		tags: ["friends"],
 	},
+	{
+		id: 15,
+		title: "柊镜",
+		imgurl: "https://www.kagamistarlight.top/_astro/avatar.Blu5ijdD_2wcflA.webp",
+		desc: "愛が足りなかっただね。",
+		siteurl: "https://www.kagamistarlight.top/",
+		tags: ["friends"],
+	},
+	{
+		id: 16,
+		title: "mikus",
+		imgurl: "https://mikus.ink/_astro/miku.Dq7hXSsT_ZuHYtf.webp",
+		desc: "你好，世界。",
+		siteurl: "https://mikus.ink/",
+		tags: ["friends"],
+	},
 ];
 
 // 获取所有友情链接数据
