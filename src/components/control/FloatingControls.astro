@@ -219,8 +219,8 @@ const { headings = [] } = Astro.props;
 		window.__floatingControlObservers = new Map();
 	}
 
-	let isMusicPanelExpanded = false;
-	let visibilityUpdateScheduled = false;
+	var isMusicPanelExpanded = false;
+	var visibilityUpdateScheduled = false;
 	const controlButtonIds = [
 		"floating-toc-btn",
 		"back-to-home-btn",
@@ -370,8 +370,8 @@ const { headings = [] } = Astro.props;
 		}
 	}
 
-	let mermaidRendering = false;
-	let mermaidRenderTimer = null;
+	var mermaidRendering = false;
+	var mermaidRenderTimer = null;
 
 	function handleMermaidRenderStart() {
 		mermaidRendering = true;
