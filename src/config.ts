@@ -216,14 +216,14 @@ export const siteConfig: SiteConfig = {
 			// 指定为英文字体则无论字体包含多大范围，都只会保留 ASCII 字符子集
 			fontFamily: "ZenMaruGothic-Medium",
 			fontWeight: "400",
-			localFonts: ["朱雀仿宋.ttf"],
+			localFonts: ["zqfs.woff2"],
 			enableCompress: true, // 启用字体子集优化，减少字体文件大小
 		},
 		cjkFont: {
 			// 中日韩字体 - 作为回退字体
 			fontFamily: "朱雀仿宋",
 			fontWeight: "500",
-			localFonts: ["朱雀仿宋.ttf"],
+			localFonts: ["zqfs.woff2"],
 			enableCompress: true, // 启用字体子集优化，减少字体文件大小
 		},
 	},
