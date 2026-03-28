@@ -408,7 +408,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Umami",
 			icon: "fa7-solid:globe",
-			url: "https://cloud.umami.is/analytics/us/websites/27a68670-db09-4178-b3c7-8e6fa5d59126",
+			url: "https://cloud.umami.is/analytics/us/share/R4HXg0CpZwfXstGf",
 		},
 		{
 			name: "米游社",
