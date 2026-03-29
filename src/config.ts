@@ -478,7 +478,7 @@ export const shareConfig: ShareConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "公告", // 公告标题，填空使用i18n字符串Key.announcement
-	content: "9.0预更新第一版", // 公告内容
+	content: "9.0预更新第三版", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
 		enable: false, // 启用链接
@@ -673,8 +673,8 @@ export const sakuraConfig: SakuraConfig = {
 // Pio 看板娘配置
 export const pioConfig: import("./types/config").PioConfig = {
 	enable: true, // 启用看板娘
-	models: ["/pio/models/cmtt/cmtt.model3.json"], // 默认模型路径
-	position: "left", // 模型位置
+	models: ["/pio/models/wwa/wwa.model3.json"], // 默认模型路径
+	position: "right", // 模型位置
 	width: 280, // 默认宽度
 	height: 400, // 默认高度
 	mode: "draggable", // 默认为可拖拽模式
@@ -684,8 +684,8 @@ export const pioConfig: import("./types/config").PioConfig = {
 		touch: [
 			"你在做什么喵?",
 			"请不要摸我喵",
-			"Don't bully me like that!",
-			"HENTAI! Funk you!",
+			"不要忘记多喝水，好好吃饭",
+			"记得在友链处留下你的足迹",
 		], // 触摸提示
 		home: "Click here to go back to homepage!", // 首页提示
 		skin: ["Want to see my new outfit?", "The new outfit looks great~"], // 换装提示

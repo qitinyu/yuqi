@@ -217,8 +217,4 @@ Android 原生权限管理非常粗糙（只有允许/不允许）。App Ops 可
 设置 -> 开启“使用 Root/ADB 访问”。
 授权 Shizuku 后，侧边栏会出现特殊的目录入口，可以查看受保护的应用数据目录（仅限调试包或已授权）
 
---- 
 
-## 🌈友情文章
-- [Mizuki-官方文档](https://docs.mizuki.mysqil.com/guide/intro/)
-- [有疑问？访问官方文档](https://shizuku.rikka.app/zh-hans/guide/setup/)
