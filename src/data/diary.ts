@@ -237,4 +237,4 @@ export const getAllTags = () => {
 };
 
 // 兼容性：保留原有的默认导出
-export default loadAllDiaries();
+// export default loadAllDiaries();

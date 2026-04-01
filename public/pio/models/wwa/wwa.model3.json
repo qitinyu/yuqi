@@ -1,0 +1,36 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "wwa.moc3",
+		"Textures": [
+			"wwa/texture_00.png",
+			"wwa/texture_01.png",
+			"wwa/texture_02.png",
+			"wwa/texture_03.png",
+			"wwa/texture_04.png",
+			"wwa/texture_05.png",
+			"wwa/texture_06.png",
+			"wwa/texture_07.png",
+			"wwa/texture_08.png",
+			"wwa/texture_09.png",
+			"wwa/texture_10.png"
+		],
+		"Physics": "wwa.physics3.json",
+		"DisplayInfo": "wwa.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	]
+}
