@@ -111,13 +111,22 @@ export const timelineData: TimelineItem[] = [
     {
 		id: "les-11",
 		title: "LES GAME/LES ZIYUAN</br>BHGAME/ZIYUAN",
-		description: "懂得都懂.",
+		description: "懂得都懂(游戏/资源).",
 		startDate: "2026-02-05",
 		logoUrl: "https://i.postimg.cc/TPL6KVmP/les3.webp",
 		lj1: "https://pan.xunlei.com/s/VO9NIcBdoaYEBLa0rtM51aIrA1",
 		lj2: "https://my.feishu.cn/share/base/query/shrcnalxWt6VFN480RzFVTs6ipb",
 	}, 
-	
+
+	{
+		id: "les-12",
+		title: "LES ANIME/LES NOVEL",
+		description: "全体保持嘴角上扬(动漫/小说).",
+		startDate: "2026-04-02",
+		logoUrl: "https://i.postimg.cc/ZnG3FJL7/les78.webp",
+		lj1: "https://www.123865.com/s/iMSmjv-HSLo?pwd=0723#",
+		lj2: "https://www.123865.com/s/iMSmjv-ASLo?pwd=0723#",
+	}, 
 ];
 
 // 获取所有时间线数据（按时间倒序）

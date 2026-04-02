@@ -140,6 +140,14 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://mikus.ink/",
 		tags: ["friends"],
 	},
+	{
+		id: 17,
+		title: "南wind",
+		imgurl: "https://pic1.imgdb.cn/item/69c905abb1655e1da0faef76.jpg",
+		desc: "晴时晒梦，雨时读云。",
+		siteurl: "https://blog.emumu.xyz/",
+		tags: ["friends"],
+	},
 ];
 
 // 获取所有友情链接数据
