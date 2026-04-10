@@ -119,7 +119,7 @@ export const friendsData: FriendItem[] = [
 	{
 		id: 14,
 		title: "柒喵の小屋",
-		imgurl: "https://www.qimiaoneko.com/_astro/home.R4qJmXhS_Z2P7Gh.webp",
+		imgurl: "https://www.qimiaoneko.com/_astro/home.Djbr-uEA_Zv5fVO.webp",
 		desc: "Ciallo～（∠·ω ＜）⌒★。",
 		siteurl: "https://www.qimiaoneko.com/",
 		tags: ["friends"],
