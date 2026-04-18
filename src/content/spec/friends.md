@@ -4,8 +4,8 @@
 {
 title:Yu Qi
 desc:生命绚烂，别被黑暗压垮。
-siteurl:https://yqamm.eu.cc
-imgurl: https://yqamm.eu.cc/_astro/avatar.DsloLJ2B_Z1z32Q.webp
+siteurl:https://yqamm.cc.cd
+imgurl: https://yqamm.cc.cd/_astro/avatar.DsloLJ2B_Z2ceESW.webp
 tags: ["friends"],
 }
 ```
