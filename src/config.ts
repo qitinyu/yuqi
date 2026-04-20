@@ -351,7 +351,7 @@ export const navBarConfig: NavBarConfig = {
 				},
 				{
 					name: "YQPAN",
-					url: "https://yq.yqamma.eu.cc",
+					url: "https://open.yqamma.eu.cc",
 					external: true,
 					icon: "fa7-solid:cloud",
 				},
@@ -699,12 +699,12 @@ export const sakuraConfig: SakuraConfig = {
 // Pio 看板娘配置
 export const pioConfig: import("./types/config").PioConfig = {
 	enable: true, // 启用看板娘
-	models: ["/pio/models/cmtt/cmtt.model3.json"], // 默认模型路径
+	models: ["/pio/models/wwa/wwa.model3.json"], // 默认模型路径
 	position: "left", // 模型位置
 	width: 280, // 默认宽度
 	height: 400, // 默认高度
 	mode: "draggable", // 默认为可拖拽模式
-	hiddenOnMobile: true, // 默认在移动设备上隐藏
+	hiddenOnMobile: false, // 默认在移动设备上隐藏
 	dialog: {
 		welcome: "Welcome to YQi Website!", // 欢迎词
 		touch: [
