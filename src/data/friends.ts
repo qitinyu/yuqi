@@ -111,7 +111,7 @@ export const friendsData: FriendItem[] = [
 	{
 		id: 13,
 		title: "杪夏山不语",
-		imgurl: "https://blog.mxsby.top/_astro/Echo.k8Yt-sSC_Z1jLGf2.webp",
+		imgurl: "https://blog.mxsby.top/_astro/avatar.DodcwRNI_Z1iLucw.webp",
 		desc: "苔花如米小，也学牡丹开。",
 		siteurl: "https://blog.mxsby.top/",
 		tags: ["friends"],
@@ -146,6 +146,14 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://pic1.imgdb.cn/item/69c905abb1655e1da0faef76.jpg",
 		desc: "晴时晒梦，雨时读云。",
 		siteurl: "https://blog.emumu.xyz/",
+		tags: ["friends"],
+	},
+	{
+		id: 10,
+		title: "UpXuu's Blog",
+		imgurl: "https://upxuu.com/images/20260214145619.jpg",
+		desc: "逐光而上。",
+		siteurl: "https://upxuu.com/",
 		tags: ["friends"],
 	},
 ];
